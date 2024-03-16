@@ -60,3 +60,11 @@ body{
     border-radius: 5px;
     font-size: 20px;
 }
+
+a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: gray;
+    margin: 10px;
+  }
