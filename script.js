@@ -7,10 +7,12 @@ let alarmTime;
 alarmState = "noset";
 
 for (let i = 23; i >= 0; i--) {
+  // ! if it was i<10 , put 0 behind it 
   i = i < 10 ? "0" + i : i;
+  // console.log(i)
   let option = `<option value ='${i}'>${i}</option>`;
   selectMenu[0].firstElementChild.insertAdjacentHTML("afterend", option);
-  //   console.log(option);
+    console.log(option);
 }
 
 for (let i = 59; i >= 0; i--) {
