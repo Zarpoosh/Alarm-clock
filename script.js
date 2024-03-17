@@ -59,5 +59,6 @@ function checkState(state) {
     alarmState = "noset";
     setAlarmBtn.innerText = "set Alarm";
     selectMenu.value = "Hour";
+    alarmTime = `${(selectMenu[0].value = "Hour")}:${(selectMenu[1].value ="Minute")}`;
   }
 }

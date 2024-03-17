@@ -1,70 +1,70 @@
-@import url(https://fonts.google.com/specimen/Poppins?query=poppins)
-
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing  : border-box;
-    font-family : 'poppins',sans-serif;
+@import url(https://fonts.google.com/specimen/Poppins?query=poppins) * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
 }
-img{
-    height:100px;
+img {
+  height: 100px;
 }
-body,.container,.content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body,
+.container,
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-body{
-    height: 100vh;
-    background-color: #4a98f7;
+body {
+  height: 100vh;
+  background-color: #4a98f7;
 }
-.container{
-    width: 450px;
-    background-color: #ffff;
-    padding: 30px;
-    border-radius: 10px;
-    flex-direction: column;
+.container {
+  width: 450px;
+  background-color: #ffff;
+  padding: 30px;
+  border-radius: 10px;
+  flex-direction: column;
 }
-.container h1{
-    font-size: 40px;
-    margin: 30px;
+.container h1 {
+  font-size: 40px;
+  margin: 30px;
 }
-.container .content{
-    width: 100%;
-    justify-content: space-between;
+.container .content {
+  width: 100%;
+  justify-content: space-between;
 }
-.container.content.disable{
-    opacity: 0.5;
-    pointer-events: none;
+.disable {
+  opacity: 0.5;
+  pointer-events: none;
 }
-.content .contorols{
-    border: 1px solid gray;
-    width: calc(100% /2 - 5px);
-    padding: 5px 10px;
-    border-radius: 5px;
+.content .contorols {
+  border: 1px solid gray;
+  width: calc(100% / 2 - 5px);
+  padding: 5px 10px;
+  border-radius: 5px;
 }
-.content .contorols select{
-    outline: 0;
-    border: 0;
-    width: 100%;
-    font-size: 16px;
+.content .contorols select {
+  outline: 0;
+  border: 0;
+  width: 100%;
+  font-size: 16px;
 }
-.container button{
-    width: 100%;
-    outline: 0;
-    border: 0;
-    background-color:#4a98f7 ;
-    color: #ffff;
-    padding: 15px 0;
-    margin-top: 20px;
-    border-radius: 5px;
-    font-size: 20px;
+.container button {
+  width: 100%;
+  outline: 0;
+  border: 0;
+  background-color: #4a98f7;
+  color: #ffff;
+  padding: 15px 0;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 20px;
 }
 
 a {
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    color: gray;
-    margin: 10px;
-  }
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: gray;
+  margin: 10px;
+}
